@@ -1,22 +1,24 @@
 import analyzer from './analyzer.js';
 
 //TODO: escuchar eventos del DOM e invocar  los métodos del objeto `analyzer`
+const textArea = document.querySelector('.textarea');
+const wordCountElement = document.querySelector('.parrafo');
+const characterCountElement = document.querySelector('.caracter');
+const characterCountExcludingSpacesEelement = document.querySelector('.caractersolo');
+const numberCountElement = document.querySelector('.cantnumeros');
+const numberSumElement = document.querySelector('.totalnum');
+const averageWordLengthElement = document.querySelector('.promlong');
+const resetButton = document.querySelector('#reset-button');
 
+textArea.addEventListener('input', () => {
+  const text = textArea.value;
 
-const textArea = document.querySelector('textarea');
-const getWordCount = document.querySelector('Parrafo');
-const getCharacterCount = document.querySelector('');
-const getCharacterCout = document.querySelector('');
-const getCharacterCountExcludingSpaces = document.querySelector('');
-const getNumberCount = document.querySelector('');
-const getNumberSum = document.querySelector('');
-const getAverageWordLength = document.querySelector('resetButton');
+  const wordCount = analyzer.getWordCount(text);
+  wordCountElement.textContent = `Número de palabras: ${wordCount}`;
+})
 
-function getWordCount(aString) {
-  return aString.trim().split(" ").length;
-}
-function update() {
-  getWordCount.textArea = "Parrafo: " + getWordCount(textArea.value);
-}
-textArea.addEventListener("textArea", update);
-update;
+document.addEventListener('DOMContentLoaded', () => {
+resetButton.addEventListener('click', () => {
+  // acción de reset
+})
+})
