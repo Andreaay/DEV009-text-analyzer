@@ -19,7 +19,10 @@ textArea.addEventListener('input', () => {
   const characterCount = analyzer.getCharacterCount (text);
   characterCountElement.textContent = `Número de caracteres : ${characterCount}`;
   
-  
+  const characterCountExcludingSpaces = analyzer.getCharacterCountExcludingSpaces (text);
+  characterCountExcludingSpacesEelement.textContent = `Número de caracteres sin espacios y signos de puntuación : ${characterCountExcludingSpacesEelement}`;
+
+
 })
 
 
