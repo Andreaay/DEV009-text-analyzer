@@ -3,6 +3,11 @@
 const analyzer = {
       getWordCount: function(text){
       // Elimina los caracteres especiales y cuenta solo las palabras.
+      // If se utiliza para cuando no haya ninguna palabra en el textArea, se regresé la cuenta a cero ya que el split split(/\s+/) divide en palabras el texto.
+      //condición que verifica si el resultado de la cadena es igual a una vacía con operador de igualdad que retornará 0.
+      if (text.trim() ===''){
+        return 0;
+      }
       //Utilizando el método trim() se elimina cualquier espacio en blanco adicional al inicio o al final del texto 
       //esto garantiza que no se cuenten espacios en blanco innecesarios alrededor del texto
       const cleanedText = text.trim();
@@ -31,22 +36,29 @@ const analyzer = {
       //gi indica que se deben realizar coincidencias globales (en todo el texto) y sin distinguir entre mayúsculas y minúsculas.
       ///\s+/g para eliminar los espacios en blanco adicionales.
       //\s+ coincide con uno o más espacios en blanco, al reemplazarlos con una cadena vacía, se eliminan del texto.
-      const cleanedText = text.replace(/[^w\s]/gi, '').replace(/\s+/g, '');
+      const cleanedText = text.replace(/[^\w\s]/gi, '').replace(/\s+/g, '');
       //se devuelve la longitud del texto resultante, que representa la cantidad de caracteres excluyendo espacios y signos de puntuación.
       return cleanedText.length;
       },
 
-      getAverageWordLength: (text) => {    
-      //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
-      },
-
       getNumberCount: (text) => {
-      //TODO: esta función debe retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
-      },
-      
+      //retornar cúantos números se encuentran en el parámetro `text` de tipo `string`.
+      const cleanedText = text.trim();
+      const numbers = cleanedText.match(/\d+(\.\d+)?/g);
+      if (numbers) {
+        return numbers.length;
+      } else {
+        return 0;
+      }
+    },
+
       getNumberSum: (text) => {
       //TODO: esta función debe retornar la suma de todos los números que se encuentran en el parámetro `text` de tipo `string`.
       },
+
+      getAverageWordLength: (text) => {    
+        //TODO: esta función debe retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
+        },
     };    
 
 

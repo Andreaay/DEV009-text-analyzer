@@ -14,22 +14,31 @@ textArea.addEventListener('input', () => {
   const text = textArea.value;
 
   const wordCount = analyzer.getWordCount(text);
-  wordCountElement.textContent = `Número de palabras: ${wordCount}`;
+  wordCountElement.textContent = `Número de palabras : ${wordCount}`;
 
   const characterCount = analyzer.getCharacterCount (text);
   characterCountElement.textContent = `Número de caracteres : ${characterCount}`;
   
   const characterCountExcludingSpaces = analyzer.getCharacterCountExcludingSpaces (text);
-  characterCountExcludingSpacesEelement.textContent = `Número de caracteres sin espacios y signos de puntuación : ${characterCountExcludingSpacesEelement}`;
+  characterCountExcludingSpacesEelement.textContent = `Número de caracteres sin espacios y signos de puntuación : ${characterCountExcludingSpaces}`;
 
-
+  const numberCount = analyzer.getNumberCount(text);
+  numberCountElement.textContent = `Cantidad de números: ${numberCount}`;
 })
 
 
 document.addEventListener('DOMContentLoaded', () => {
 resetButton.addEventListener('click', () => {
-  // acción de reset para el cuadrode texto y las 6 funciones
-  textArea.value = ''; // Limpiar texArea
-  wordCountElement.textContent = 'Número de palabras: 0'; // Restablecer  a 0
+  // acción de reset para el cuadro de texto y las 6 funciones
+  textArea.value = ''; 
+  // Limpiar texArea
+  wordCountElement.textContent = 'Número de palabras: 0'; 
+  // Restablecer  a  0
+  characterCountElement.textContent = 'Número de caracteres : 0'
+  // Restablecer  a  0
+  characterCountExcludingSpacesEelement.textContent = 'Número de caracteres : 0'
+  // Restablecer  a  0
+  numberCountElement.textContent = 'Cantidad de números : 0'
+  // Restablecer  a  0
 });
 })
