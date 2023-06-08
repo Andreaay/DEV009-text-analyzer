@@ -15,10 +15,18 @@ textArea.addEventListener('input', () => {
 
   const wordCount = analyzer.getWordCount(text);
   wordCountElement.textContent = `Número de palabras: ${wordCount}`;
+
+  const characterCount = analyzer.getCharacterCount (text);
+  characterCountElement.textContent = `Número de caracteres : ${characterCount}`;
+  
+  
 })
+
 
 document.addEventListener('DOMContentLoaded', () => {
 resetButton.addEventListener('click', () => {
-  // acción de reset
-})
+  // acción de reset para el cuadrode texto y las 6 funciones
+  textArea.value = ''; // Limpiar texArea
+  wordCountElement.textContent = 'Número de palabras: 0'; // Restablecer  a 0
+});
 })
