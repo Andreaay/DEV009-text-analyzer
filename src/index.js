@@ -24,21 +24,30 @@ textArea.addEventListener('input', () => {
 
   const numberCount = analyzer.getNumberCount(text);
   numberCountElement.textContent = `Cantidad de números: ${numberCount}`;
+
+  const getNumberSum = analyzer.getNumberSum(text);
+  numberSumElement.textContent = `Total de números: ${getNumberSum}`;
+
+  const averageWordLength = analyzer.getAverageWordLength (text);
+  averageWordLengthElement.textContent = `Promedio de longitud: ${averageWordLength}`;
 })
 
 
 document.addEventListener('DOMContentLoaded', () => {
-resetButton.addEventListener('click', () => {
+  resetButton.addEventListener('click', () => {
   // acción de reset para el cuadro de texto y las 6 funciones
-  textArea.value = ''; 
-  // Limpiar texArea
-  wordCountElement.textContent = 'Número de palabras: 0'; 
-  // Restablecer  a  0
-  characterCountElement.textContent = 'Número de caracteres : 0'
-  // Restablecer  a  0
-  characterCountExcludingSpacesEelement.textContent = 'Número de caracteres : 0'
-  // Restablecer  a  0
-  numberCountElement.textContent = 'Cantidad de números : 0'
-  // Restablecer  a  0
-});
+    textArea.value = ''; 
+    // Limpiar texArea
+    wordCountElement.textContent = 'Número de palabras: 0'; 
+    // Restablecer  a  0
+    characterCountElement.textContent = 'Número de caracteres : 0'
+    // Restablecer  a  0
+    characterCountExcludingSpacesEelement.textContent = 'Número de caracteres sin espacios y signos de puntuación : 0'
+    // Restablecer  a  0
+    numberCountElement.textContent = 'Cantidad de números : 0'
+    // Restablecer  a  0
+    numberSumElement.textContent = 'Total de números : 0'
+    // Restablecer  a  0
+    averageWordLengthElement.textContent = 'Promedio de longitud : 0'
+  });
 })
