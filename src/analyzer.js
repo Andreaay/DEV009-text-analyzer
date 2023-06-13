@@ -77,15 +77,29 @@ const analyzer = {
   },
   getAverageWordLength: (text) => {    
     //retornar la longitud media de palabras que se encuentran en el parámetro `text` de tipo `string`.
+    ////con trim() se elimina cualquier espacio en blanco adicional al inicio o al final del texto 
     const cleanedText = text.trim();
+    //El texto limpio se divide en palabras utilizando el método split(/\s+/).
+    //Aquí se utiliza una expresión regular /\s+/ que coincide con uno o más espacios en blanco
+    //esto divide el texto en palabras basándose en los espacios en blanco encontrados.
+    //Las palabras se almacenan en el arreglo words
     const words = cleanedText.split(/\s+/);
+    // total lenght es la variable se utiliza para almacenar la suma de las longitudes de todas las palabras.
     let totalLength = 0;
+    //variable donde i tiene valor 0 con condicion hasta donde finalizar.
+    //mientras el valor de i sea menor que la longitud del array words se ejecutará.
     for (let i = 0; i < words.length; i++) {
+      //suma la longitud de cada palabra en el array
       totalLength += words[i].length;
     }
+    //calcula el promedio de longitud de las palabras en el array
+    //la suma de las longitudes de todas las palabras por la cantidad de palabras en el array.
+    //el resultado es averageLength
     const averageLength = totalLength / words.length;
+    //formatea el valor del promedio de longitud para que tenga solo dos decimales.
+    //toFixed(2) se aplica a la variable averageLength y devuelve un array de texto que representa el número con dos decimales.
     const averageLengthFormatted = averageLength.toFixed(2);
-    return averageLengthFormatted;
+    return parseFloat(averageLengthFormatted);
   },
 };
 export default analyzer;

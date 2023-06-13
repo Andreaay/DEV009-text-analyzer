@@ -11,7 +11,7 @@ header{
     font-size: 80px 0;
     padding: 1em 1.5em;
 }
-textarea[name=textarea]{
+textarea[name="user-input"]{
     line-height: 60px;
     border: none;
     outline: none;

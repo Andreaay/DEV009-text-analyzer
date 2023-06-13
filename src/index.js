@@ -10,8 +10,7 @@ const numberSumElement = document.querySelector('.totalnum');
 const averageWordLengthElement = document.querySelector('.promlong');
 const resetButton = document.getElementById('reset-button');
 
-textAreaElement.addEventListener('keyup', function(event) {
-  const content = event.target.value;
+textAreaElement.addEventListener('keyup', function() {
   const text = textAreaElement.value;
 
   const wordCount = analyzer.getWordCount(text);
