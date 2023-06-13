@@ -5,13 +5,13 @@ body{
     padding: 10px;
     text-align: center;
 }
-h1{
+header{
     color: #706175;
     text-align: center;
     font-size: 80px 0;
     padding: 1em 1.5em;
 }
-textarea{
+textarea[name=textarea]{
     line-height: 60px;
     border: none;
     outline: none;
@@ -24,7 +24,7 @@ textarea{
     resize: none;
     cursor: pointer;
 }
-ul{
+.ul{
     color: #8d7d92;
     display: inline-block;
     border-radius: 100px;
@@ -34,7 +34,37 @@ ul{
     width: 5000px;
     font-size: larger;
 }
-button{
+.parrafo{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+}
+.caracter{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+}
+.caractersolo{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+}
+.cantnumeros{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+}
+.totalnum{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+}
+.promlong{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+}
+#reset-button{
     border: none;
     background-color: #81c9fa;
     padding: 16px 16px;
@@ -46,10 +76,10 @@ button{
     outline: none;
     cursor: pointer;
     text-align: center;
-    top: 90px;
+    top: 30px;
     width: 280px;
 }
-p{
+footer{
     color:#e4717a;
     text-align: center;
 }
