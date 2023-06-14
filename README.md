@@ -2,7 +2,7 @@
 
 ## Índice
 
-* [1. Consideraciones generales](#1-consideraciones-generales)
+* [1. Descripción del proyecto](#1-Descripción-del-proyecto)
 * [2. Preámbulo](#2-preámbulo)
 * [3. Funcionalidades](#3-funcionalidades)
 * [4. Boilerplate](#4-boilerplate)
