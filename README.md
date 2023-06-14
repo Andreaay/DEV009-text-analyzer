@@ -15,14 +15,12 @@
 
 ***
 
-## 1. Consideraciones generales 
+## 1. Descipción del proyecto
 
-* Este proyecto lo resolvemos de manera **individual**.
-* El rango de tiempo estimado para completar el proyecto es de 1 a 3 Sprints.
-* Enfócate en aprender y no solamente en "completar" el proyecto.
-* Te sugerimos que no intentes saberlo todo antes de empezar a codear.
-  No te preocupes demasiado ahora por lo que _todavía_ no entiendas.
-  Irás aprendiendo.
+
+Un analizador de texto es una herramienta o programa informático diseñado para examinar y procesar el contenido textual con el fin de extraer información significativa y realizar diversas operaciones, como la identificación de palabras clave, el análisis de sentimientos, el etiquetado gramatical, la detección de entidades nombradas, entre otras tareas relacionadas con el procesamiento del lenguaje natural (NLP, por sus siglas en inglés).
+
+Estos analizadores utilizan algoritmos y técnicas avanzadas de procesamiento del lenguaje natural para comprender y extraer información relevante del texto. Pueden aplicarse en una amplia variedad de dominios, como análisis de opiniones en redes sociales, clasificación de documentos, extracción de información en bases de datos, traducción automática, entre otros.
 
 ## 2. Preámbulo
 
