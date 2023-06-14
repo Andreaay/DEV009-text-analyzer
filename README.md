@@ -15,7 +15,7 @@
 
 ***
 
-## 1. Descipción del proyecto
+## 1. Descripción del proyecto
 
 
 Un analizador de texto es una herramienta o programa informático diseñado para examinar y procesar el contenido textual con el fin de extraer información significativa y realizar diversas operaciones, como la identificación de palabras clave, el análisis de sentimientos, el etiquetado gramatical, la detección de entidades nombradas, entre otras tareas relacionadas con el procesamiento del lenguaje natural (NLP, por sus siglas en inglés).
