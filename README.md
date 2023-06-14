@@ -3,13 +3,13 @@
 ## Índice
 
 * [1. Descripción del proyecto](#1-Descripción-del-proyecto)
-* [2. Preámbulo](#2-preámbulo)
-* [3. Funcionalidades](#3-funcionalidades)
-* [4. Boilerplate](#4-boilerplate)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Pruebas](#6-pruebas)
-* [7. Pistas, tips y lecturas complementarias](#7-pistas-tips-y-lecturas-complementarias)
-* [8. Consideraciones para pedir tu Project Feedback](#8-consideraciones-para-pedir-tu-project-feedback)
+* [2. Objetivos del proyecto](#2-Objeticos-del-proyecto)
+* [3. Estado del proyecto](#3-Estado-del-proyecto)
+* [4. Funcionalidades](#4-Funcionalidades)
+* [5. Acceso al proyecto](#5-Acceso-al-proyecto)
+* [6. Tecnologías utilizadas](#6-Tecnologías-utilizdas)
+* [7. Desarrolladora](#7-Desarrolladora)
+* [8. Bibliografía](#8-Bibliografía)
 * [9. Objetivos de aprendizaje](#9-objetivos-de-aprendizaje)
 * [10. Funcionalidades opcionales](#10-funcionalidades-opcionales)
 
@@ -22,7 +22,7 @@ Un analizador de texto es una herramienta o programa informático diseñado para
 
 Estos analizadores utilizan algoritmos y técnicas avanzadas de procesamiento del lenguaje natural para comprender y extraer información relevante del texto. Pueden aplicarse en una amplia variedad de dominios, como análisis de opiniones en redes sociales, clasificación de documentos, extracción de información en bases de datos, traducción automática, entre otros.
 
-## 2. Preámbulo
+## 2. Objetivos del proyecto
 
 ![Una lupa sobre texto de libro](https://github.com/Laboratoria/bootcamp/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
 
@@ -47,7 +47,7 @@ tomar decisiones informadas y sacar conclusiones significativas.
 Mediante el uso de estas herramientas de análisis, los usuarios pueden
 obtener una comprensión más profunda de los textos.
 
-## 3. Funcionalidades
+## 3. Estado del proyecto
 
 En este proyecto implementarás un analizador de texto web para calcular
 y mostrar métricas de un texto enviado por el usuario.
@@ -81,7 +81,7 @@ clic en un botón.
 
 ![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
 
-## 4. Boilerplate
+## 4. Funcionalidades
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript
