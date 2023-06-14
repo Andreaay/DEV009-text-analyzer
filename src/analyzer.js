@@ -67,9 +67,15 @@ const analyzer = {
     //Las palabras se almacenan en el arreglo words
     const words = cleanedText.split(/\s+/);
     let sum = 0;
+    //variable donde i tiene valor 0 con condicion hasta donde finalizar.
+    //mientras el valor de i sea menor que la longitud del array words se ejecutará.
     for (let i = 0; i < words.length; i++) {
-      //isnan significa que no es un número
+      //isNaN() = no es un número
+      //se utiliza para verificar si el elemento actual del array es un número. Si el elemento no es un número
+      //words[i] se utiliza para acceder al elemento en la posición i 
       if (!isNaN(words[i])) {
+        //sum almacena la suma acumulativa de los valores numéricos.
+        //+= agrega el valor de suma a (Number(words[i])) 
         sum += Number(words[i]);
       }
     }
@@ -99,6 +105,7 @@ const analyzer = {
     //formatea el valor del promedio de longitud para que tenga solo dos decimales.
     //toFixed(2) se aplica a la variable averageLength y devuelve un array de texto que representa el número con dos decimales.
     const averageLengthFormatted = averageLength.toFixed(2);
+    //function parses a string argument and returns a floating point number.
     return parseFloat(averageLengthFormatted);
   },
 };

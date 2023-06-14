@@ -26,43 +26,54 @@ textarea[name="user-input"]{
 }
 .ul{
     color: #8d7d92;
-    display: inline-block;
     border-radius: 100px;
-    list-style-type: none;
+    list-style: none;
     text-align: justify;
     padding: 2em 3em;
-    width: 5000px;
+    width: 100%;
     font-size: larger;
 }
 .parrafo{
     border-width: 1px;
     height: auto;
     margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
 }
 .caracter{
     border-width: 1px;
     height: auto;
     margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
 }
 .caractersolo{
     border-width: 1px;
     height: auto;
     margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
 }
 .cantnumeros{
     border-width: 1px;
     height: auto;
     margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
 }
 .totalnum{
     border-width: 1px;
     height: auto;
     margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
 }
 .promlong{
     border-width: 1px;
     height: auto;
     margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
 }
 #reset-button{
     border: none;
@@ -80,6 +91,8 @@ textarea[name="user-input"]{
     width: 280px;
 }
 footer{
-    color:#e4717a;
+    color:#ffffff;
     text-align: center;
+    background-color:#503459;
+    border-radius: 100px;
 }
