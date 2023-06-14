@@ -1,0 +1,98 @@
+body{
+    background-color:#dac9df;
+    margin: 0 auto;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+}
+header{
+    color: #706175;
+    text-align: center;
+    font-size: 80px 0;
+    padding: 1em 1.5em;
+}
+textarea[name="user-input"]{
+    line-height: 60px;
+    border: none;
+    outline: none;
+    font-size: 1.2rem;
+    padding: 10px 16px;
+    border-radius: 100px;
+    text-align: center;
+    opacity: 0.4;
+    width: 500px;
+    resize: none;
+    cursor: pointer;
+}
+.ul{
+    color: #8d7d92;
+    border-radius: 100px;
+    list-style: none;
+    text-align: justify;
+    padding: 2em 3em;
+    width: 100%;
+    font-size: larger;
+}
+.parrafo{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
+}
+.caracter{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
+}
+.caractersolo{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
+}
+.cantnumeros{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
+}
+.totalnum{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
+}
+.promlong{
+    border-width: 1px;
+    height: auto;
+    margin-bottom: .5%;
+    background-color:#fbd5e5;
+    border-radius: 100px;
+}
+#reset-button{
+    border: none;
+    background-color: #81c9fa;
+    padding: 16px 16px;
+    color: #fff;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    border-radius: 100px;
+    box-shadow: #fff0ff;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    top: 30px;
+    width: 280px;
+}
+footer{
+    color:#ffffff;
+    text-align: center;
+    background-color:#503459;
+    border-radius: 100px;
+}
