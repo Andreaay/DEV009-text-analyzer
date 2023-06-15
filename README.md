@@ -34,7 +34,7 @@ _Credito: Imagen de Andrea C.
 
 Este proyecto fue creado en base a un diseño imaginado y plasmado en un borrador
 
-![Borrador](https://github.com/Andreaay/DEV009-text-analyzer/blob/83e8df4bd5a6874286be67765810e9c9786fffe0/ENTRADA%20DE%20TEXTO.jpg)
+![Borrador](https://github.com/Andreaay/DEV009-text-analyzer/blob/fd885d3a4cbc1962a9b8da0bd2bca105ca900a59/prototipo.png)
 
 En base a este borrador se trabajó en Trello para tener una organización de tareas y tiempo.
 
