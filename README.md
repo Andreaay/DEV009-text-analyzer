@@ -6,9 +6,8 @@
 * [2. Objetivos del proyecto](#2-Objetivos-del-proyecto)
 * [3. Características de un analizador de texto](#3-Características-de-un-analizador-de-texto)
 * [4. Funcionalidades](#4-Funcionalidades)
-* [5. Acceso al proyecto](#5-Acceso-al-proyecto)
-* [6. Tecnologías utilizadas](#6-Tecnologías-utilizdas)
-* [7. Bibliografía](#8-Bibliografía)
+* [5. Tecnologías utilizadas](#6-Tecnologías-utilizdas)
+* [6. Bibliografía](#8-Bibliografía)
 
 ***
 
@@ -37,10 +36,9 @@ _Credito: Imagen de Andrea C.
 
 ## 3. Características del analizador de texto
 
-* Tokenización: El analizador de texto divide el texto en unidades más pequeñas llamadas tokens. Estos tokens pueden ser palabras individuales, frases, oraciones o incluso caracteres. La tokenización es una etapa fundamental para el análisis y procesamiento posterior del texto.
+* El analizador de texto divide el texto en unidades más pequeñas llamadas tokens. Estos tokens pueden ser palabras individuales, frases, oraciones o incluso caracteres. La tokenización es una etapa fundamental para el análisis y procesamiento posterior del texto.
 
-* 
-
+* Obtener información estadística sobre el texto ingresado, como el número de palabras, caracteres, números, entre otros. Esto puede ser útil en diversas aplicaciones, como análisis de texto, conteo de palabras en un documento, cálculos estadísticos, entre otros.
 
 
 ## 4. Funcionalidades
@@ -61,18 +59,8 @@ _Credito: Imagen de Andrea C.
 
 * Obtención del resultado de cálculo para cada conteo.
 
-## 5. Acceso al proyecto
 
-A continuación encontrarás el link para poderacceder a un analizador de texto que te ayudará a conocer lo necesario sobre tus textos.
-
-### Acceso
-
-  - [ ] Analizador de texto
-  [`Analizador`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
-
-![Analizador de texto](https://github.com/Andreaay/DEV009-text-analyzer/blob/83e8df4bd5a6874286be67765810e9c9786fffe0/ENTRADA%20DE%20TEXTO.jpg)
-
-## 6. Tecnologías utilizadas
+## 5. Tecnologías utilizadas
 
 Para el desarrollo de este proyecto se utilizó:
 
@@ -80,7 +68,7 @@ Para el desarrollo de este proyecto se utilizó:
 * Github Pages para desplegar nuestro sitio web.
 
 
-## 7. Bibliografía
+## 6. Bibliografía
 
 * Jurafsky, D., & Martin, J. H. (2019). Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition (3rd ed.). Pearson.
 
