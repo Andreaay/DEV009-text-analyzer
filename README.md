@@ -32,6 +32,13 @@ El principal ojetivo de este analizador de texto en base a un usuario es ayudar 
 
 _Credito: Imagen de Andrea C.
 
+
+## 3. Características del analizador de texto
+
+* El analizador de texto divide el texto en unidades más pequeñas llamadas tokens. Estos tokens pueden ser palabras individuales, frases, oraciones o incluso caracteres. La tokenización es una etapa fundamental para el análisis y procesamiento posterior del texto.
+
+* Obtener información estadística sobre el texto ingresado, como el número de palabras, caracteres, números, entre otros. Esto puede ser útil en diversas aplicaciones, como análisis de texto, conteo de palabras en un documento, cálculos estadísticos, entre otros.
+
 ## Procedimiento
 
 Este proyecto fue creado en base a un diseño imaginado y plasmado en un borrador
@@ -41,12 +48,6 @@ Este proyecto fue creado en base a un diseño imaginado y plasmado en un borrado
 _Credito: Imagen de Andrea C.
 
 En base a este borrador se trabajó en Trello para tener una organización de tareas y tiempo.
-
-## 3. Características del analizador de texto
-
-* El analizador de texto divide el texto en unidades más pequeñas llamadas tokens. Estos tokens pueden ser palabras individuales, frases, oraciones o incluso caracteres. La tokenización es una etapa fundamental para el análisis y procesamiento posterior del texto.
-
-* Obtener información estadística sobre el texto ingresado, como el número de palabras, caracteres, números, entre otros. Esto puede ser útil en diversas aplicaciones, como análisis de texto, conteo de palabras en un documento, cálculos estadísticos, entre otros.
 
 
 ## 4. Funcionalidades
