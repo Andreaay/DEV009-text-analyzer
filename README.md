@@ -2,179 +2,58 @@
 
 ## Índice
 
-* [1. Descripción del proyecto](#1-Descripción-del-proyecto)
-* [2. Objetivos del proyecto](#2-Objeticos-del-proyecto)
-* [3. Estado del proyecto](#3-Estado-del-proyecto)
+* [1. Descripción de un analizador de texto](#1-Descripción-de-un-analizador-de-texto)
+* [2. Objetivos del proyecto](#2-Objetivos-del-proyecto)
+* [3. Características de un analizador de texto](#3-Características-de-un-analizador-de-texto)
 * [4. Funcionalidades](#4-Funcionalidades)
 * [5. Acceso al proyecto](#5-Acceso-al-proyecto)
 * [6. Tecnologías utilizadas](#6-Tecnologías-utilizdas)
 * [7. Desarrolladora](#7-Desarrolladora)
 * [8. Bibliografía](#8-Bibliografía)
-* [9. Objetivos de aprendizaje](#9-objetivos-de-aprendizaje)
-* [10. Funcionalidades opcionales](#10-funcionalidades-opcionales)
 
 ***
 
-## 1. Descripción del proyecto
+## 1. Descripción de un analizador de texto
 
 
 Un analizador de texto es una herramienta o programa informático diseñado para examinar y procesar el contenido textual con el fin de extraer información significativa y realizar diversas operaciones, como la identificación de palabras clave, el análisis de sentimientos, el etiquetado gramatical, la detección de entidades nombradas, entre otras tareas relacionadas con el procesamiento del lenguaje natural (NLP, por sus siglas en inglés).
 
 Estos analizadores utilizan algoritmos y técnicas avanzadas de procesamiento del lenguaje natural para comprender y extraer información relevante del texto. Pueden aplicarse en una amplia variedad de dominios, como análisis de opiniones en redes sociales, clasificación de documentos, extracción de información en bases de datos, traducción automática, entre otros.
 
+Es útil para cualquier tipo de escritor que escribe textos con un determinado número mínimo y/o máximo de palabras. Ayuda a los escritores a identificar la repetición innecesaria de algunas palabras y promueve una mejor armonización de la terminología utilizada. 
+
 ## 2. Objetivos del proyecto
+
+El principal ojetivo de este analizador de texto 
 
 ![Una lupa sobre texto de libro](https://github.com/Laboratoria/bootcamp/assets/92090/2b45f653-69a5-4282-a65c-d34125c36113)
 
 _Credito: Foto de [ethan](https://unsplash.com/fr/@andallthings?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 _en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)_
 
-Un analizador de texto es una aplicación para extraer información útil de un
-texto utilizando diversas técnicas, como el procesamiento del lenguaje
-natural (NLP), el aprendizaje automático (ML) y el análisis estadístico.
-Estas aplicaciones pueden proporcionar una variedad de métricas que brindan
-información básica sobre la longitud y la estructura del texto como por
-ejemplo, el conteo de palabras, el conteo de caracteres, el conteo de
-oraciones y el conteo de párrafos. Otras métricas incluyen el análisis
-de sentimientos, que utiliza técnicas de NLP para determinar el tono
-general positivo, negativo o neutral del texto, y el análisis de
-legibilidad, que utiliza algoritmos para evaluar la complejidad y la
-legibilidad del texto.
 
-En general, las aplicaciones de análisis de texto brindan información
-valiosa y métricas sobre los textos que pueden ayudar a los usuarios a
-tomar decisiones informadas y sacar conclusiones significativas.
-Mediante el uso de estas herramientas de análisis, los usuarios pueden
-obtener una comprensión más profunda de los textos.
 
-## 3. Estado del proyecto
+## 3. Características de un analizador de texto
 
-En este proyecto implementarás un analizador de texto web para calcular
-y mostrar métricas de un texto enviado por el usuario.
+Tokenización: El analizador de texto divide el texto en unidades más pequeñas llamadas tokens. Estos tokens pueden ser palabras individuales, frases, oraciones o incluso caracteres. La tokenización es una etapa fundamental para el análisis y procesamiento posterior del texto.
 
-El listado de funcionalidades es el siguiente:
+Etiquetado gramatical: Un analizador de texto puede asignar etiquetas gramaticales a cada token en el texto, como nombres, verbos, adjetivos, etc. Esto ayuda a comprender la estructura gramatical y sintáctica del texto.
 
-1. La aplicación debe permitir al usuario ingresar un texto escribiéndolo
-en un cuadro de texto.
+Análisis de sentimientos: Algunos analizadores de texto tienen la capacidad de analizar el tono emocional o la actitud expresada en el texto. Pueden identificar si el texto tiene una connotación positiva, negativa o neutral, lo que es útil en aplicaciones como el análisis de opiniones en redes sociales, comentarios de clientes, etc.
 
-2. La aplicación debe calcular las siguientes métricas y actualizar el
-resultado en tiempo real a medida que el usuario escribe su texto:
+Reconocimiento de entidades nombradas (NER): Un analizador de texto puede identificar y clasificar entidades nombradas en el texto, como nombres de personas, organizaciones, lugares, fechas, etc. Esto es útil para la extracción de información y la indexación de documentos.
 
-    - **Recuento de palabras**: la aplicación debe poder contar el número de
-    palabras en el texto de entrada y mostrar este recuento al usuario
-    - **Recuento de caracteres**: la aplicación debe poder contar el número de
-    caracteres en el texto de entrada, incluidos espacios y signos de
-    puntuación, y mostrar este recuento al usuario.
-    - **Recuento de caracteres excluyendo espacios y signos de puntuación**:
-    la aplicación debe poder contar el número de caracteres en el texto de
-    entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento
-    al usuario.  
-    - **Recuento de números**: la aplicación debe contar cúantos números hay en
-    el texto de entrada y mostrar este recuento al usuario.
-    - **Suma total de números**: la aplicación debe sumar todos los números que
-    hay en el texto de entrada y mostrar el resultado al usuario.
-    - **Longitud media de las palabras**: la aplicación debe calcular la
-    longitud media de las palabras en el texto de entrada y mostrársela al usuario.
+Extracción de información: Un analizador de texto puede extraer información específica del texto, como relaciones entre entidades, datos estructurados, eventos, etc. Esto ayuda a organizar y extraer conocimientos significativos del texto.
 
-3. La aplicación debe permitir limpiar el contenido de la caja de texto haciendo
-clic en un botón.
-
-![Text analyzer demo](https://github-production-user-asset-6210df.s3.amazonaws.com/12631491/240650556-988dcd6f-bc46-473b-894c-888a66c9fe2d.gif "Text analyzer demo")
 
 ## 4. Funcionalidades
 
-La lógica del proyecto debe estar implementada completamente en JavaScript. En
-este proyecto NO está permitido usar librerías o frameworks, solo JavaScript
-puro también conocido como Vanilla JavaScript.
-
-Para comenzar este proyecto tendrás que hacer un _fork_ y _clonar_ este
-repositorio que contiene un _boilerplate_ con tests (pruebas). Un _boilerplate_
-es la estructura básica de un proyecto que sirve como un punto de partida con
-archivos y configuración inicial de dependencias y tests.
-
-El boilerplate que les damos contiene esta estructura:
-
-```text
-./
-├── .babelrc
-├── .editorconfig
-├── .eslintrc
-├── .gitignore
-├── README.md
-├── package.json
-├── src
-│   ├── analyzer.js
-│   ├── index.html
-│   ├── index.js
-│   └── style.css
-└── test
-    ├── .eslintrc
-    └── analyzer.spec.js
-```
-
-### Descripción de scripts / archivos
-
-* `README.md`: debes modificarlo para explicar la información necesaria para el
-  uso de tu aplicación
-  web, así como una introducción a la aplicación, su funcionalidad y decisiones
-  de diseño que tomaron.
-* `.github/workflows`: esta carpeta contine la configuracion para la ejecution
-  de Github Actions. No debes modificar esta carpeta ni su contenido.
-* `docs/images`: contiene las imagenes de este README.
-* `read-only/`: esta carpeta contiene las pruebas de criterios mínimos de
-  aceptación y end-to-end. No debes modificar esta carpeta ni su contenido.
-* [`src/index.html`](./src/index.html): este es el punto de entrada a tu
-  aplicación. Este archivo debe contener tu HTML.
-* [`src/style.css`](./src/style.css): este archivo debe contener las reglas de
-  estilo. Queremos que escribas tus propias reglas, por eso NO está permitido el
-  uso de frameworks de CSS (Bootstrap, Materialize, etc).
-* [`src/analyzer.js`](./src/analyzer.js): acá debes implementar el objeto
-  `analyzer`, el cual ya está _exportado_ en el _boilerplate_. Este objeto
-  (`analyzer`) debe contener seis métodos:
-  - `analyzer.getWordCount(text)`: esta función debe retornar el recuento de
-  palabras que se encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getCharacterCount(text)`: esta función debe retornar el recuento
-  de caracteres que se encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getCharacterCountExcludingSpaces(text)`: esta función debe retornar
-  el recuento de caracteres excluyendo espacios y signos de puntuación que se
-  encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getNumberCount(text)`: esta función debe retornar cúantos números
-  se encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getNumberSum(text)`: esta función debe retornar la suma de todos
-  los números que se encuentran en el parámetro `text` de tipo `string`.
-  - `analyzer.getAverageWordLength(text)`: esta función debe retornar la longitud
-  media de palabras que se encuentran en el parámetro `text` de tipo `string`.
-  En este caso usa 2 dígitos decimales.
-
-  Para ejemplo de uso de cada función recomendamos ver el archivo
-  [`test/analyzer.spec.js`](./test/analyzer.spec.js).
-
-  _Nota:  para simplificar las funcionalidades, definiremos las palabras como
-  un grupos de caracteres separados por espacios. Por ejemplo las palabras del
-  texto de entrada `¡Si, Tú puedes hacerlo!` son cuatro:_
-
-  - _`¡Si,`_
-  - _`Tú`_
-  - _`puedes`_
-  - _`hacerlo!`_
-
-* [`src/index.js`](./src/index.js): acá debes escuchar eventos del DOM, invocar
-  los métodos del objeto `analyzer` según sea necesario y actualizar el resultado
-  en la UI (interfaz de usuario).
-* [`test/analyzer.spec.js`](./test/analyzer.spec.js): este archivo contiene las
-pruebas unitarias para los métodos del objeto `analyzer`.
-
-***
-
-#### Deploy
-
-Hacer que los sitios estén publicados (o _desplegados_) para que usuarias de
-la web puedan acceder a él es algo común en proyectos de desarrollo de software.
-
-En este proyecto, utilizaremos _Github Pages_ para desplegar nuestro sitio web.
-
-El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
- consultar su [documentación oficial](https://docs.github.com/es/pages).
+Recuento de palabras: la aplicación debe poder contar el número de palabras en el texto de entrada y mostrar este recuento al usuario
+Recuento de caracteres: la aplicación debe poder contar el número de caracteres en el texto de entrada, incluidos espacios y signos de puntuación, y mostrar este recuento al usuario.
+Recuento de caracteres excluyendo espacios y signos de puntuación: la aplicación debe poder contar el número de caracteres en el texto de entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento al usuario.
+Recuento de números: la aplicación debe contar cúantos números hay en el texto de entrada y mostrar este recuento al usuario.
+Suma total de números: la aplicación debe sumar todos los números que hay en el texto de entrada y mostrar el resultado al usuario.
+Longitud media de las palabras: la aplicación debe calcular la longitud media de las palabras en el texto de entrada y mostrársela al usuario.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
