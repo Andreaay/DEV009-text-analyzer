@@ -22,7 +22,7 @@ Es útil para cualquier tipo de escritor que escribe textos con un determinado n
 
 ## 2. Objetivos del proyecto
 
-El principal ojetivo de este analizador de texto en base a un usuario es ayudar al usuario a procesar y comprender el contenido textual de manera eficiente y efectiva, brindando información relevante y útil. Algunos posibles objetivos son:
+El principal ojetivo de este analizador de texto en base a un usuario es ayudar al usuario a procesar y comprender el contenido textual de manera eficiente y efectiva, brindando información relevante y útil. Los objetivos son:
 
 Obtener información relevante: Un usuario puede utilizar el analizador de texto para extraer información específica de un texto, como recuento de caracteres, palabras, números y longitud.
 
