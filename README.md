@@ -48,12 +48,18 @@ Extracción de información: Un analizador de texto puede extraer información e
 
 ## 4. Funcionalidades
 
-Recuento de palabras: la aplicación debe poder contar el número de palabras en el texto de entrada y mostrar este recuento al usuario
-Recuento de caracteres: la aplicación debe poder contar el número de caracteres en el texto de entrada, incluidos espacios y signos de puntuación, y mostrar este recuento al usuario.
-Recuento de caracteres excluyendo espacios y signos de puntuación: la aplicación debe poder contar el número de caracteres en el texto de entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento al usuario.
-Recuento de números: la aplicación debe contar cúantos números hay en el texto de entrada y mostrar este recuento al usuario.
-Suma total de números: la aplicación debe sumar todos los números que hay en el texto de entrada y mostrar el resultado al usuario.
+* Recuento de palabras: la aplicación debe poder contar el número de palabras en el texto de entrada y mostrar este recuento al usuario
+
+* Recuento de caracteres: la aplicación debe poder contar el número de caracteres en el texto de entrada, incluidos espacios y signos de puntuación, y mostrar este recuento al usuario.
+
+* Recuento de caracteres excluyendo espacios y signos de puntuación: la aplicación debe poder contar el número de caracteres en el texto de entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento al usuario.
+
+* Recuento de números: la aplicación debe contar cúantos números hay en el texto de entrada y mostrar este recuento al usuario.
+
+* Suma total de números: la aplicación debe sumar todos los números que hay en el texto de entrada y mostrar el resultado al usuario.
 Longitud media de las palabras: la aplicación debe calcular la longitud media de las palabras en el texto de entrada y mostrársela al usuario.
+
+* Longitud media de las palabras: la aplicación debe calcular la longitud media de las palabras en el texto de entrada y mostrársela al usuario.
 
 ## 5. Criterios de aceptación mínimos del proyecto
 
