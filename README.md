@@ -35,15 +35,15 @@ _en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm
 
 ## 3. Características de un analizador de texto
 
-Tokenización: El analizador de texto divide el texto en unidades más pequeñas llamadas tokens. Estos tokens pueden ser palabras individuales, frases, oraciones o incluso caracteres. La tokenización es una etapa fundamental para el análisis y procesamiento posterior del texto.
+* Tokenización: El analizador de texto divide el texto en unidades más pequeñas llamadas tokens. Estos tokens pueden ser palabras individuales, frases, oraciones o incluso caracteres. La tokenización es una etapa fundamental para el análisis y procesamiento posterior del texto.
 
-Etiquetado gramatical: Un analizador de texto puede asignar etiquetas gramaticales a cada token en el texto, como nombres, verbos, adjetivos, etc. Esto ayuda a comprender la estructura gramatical y sintáctica del texto.
+* Etiquetado gramatical: Un analizador de texto puede asignar etiquetas gramaticales a cada token en el texto, como nombres, verbos, adjetivos, etc. Esto ayuda a comprender la estructura gramatical y sintáctica del texto.
 
-Análisis de sentimientos: Algunos analizadores de texto tienen la capacidad de analizar el tono emocional o la actitud expresada en el texto. Pueden identificar si el texto tiene una connotación positiva, negativa o neutral, lo que es útil en aplicaciones como el análisis de opiniones en redes sociales, comentarios de clientes, etc.
+* Análisis de sentimientos: Algunos analizadores de texto tienen la capacidad de analizar el tono emocional o la actitud expresada en el texto. Pueden identificar si el texto tiene una connotación positiva, negativa o neutral, lo que es útil en aplicaciones como el análisis de opiniones en redes sociales, comentarios de clientes, etc.
 
-Reconocimiento de entidades nombradas (NER): Un analizador de texto puede identificar y clasificar entidades nombradas en el texto, como nombres de personas, organizaciones, lugares, fechas, etc. Esto es útil para la extracción de información y la indexación de documentos.
+* Reconocimiento de entidades nombradas (NER): Un analizador de texto puede identificar y clasificar entidades nombradas en el texto, como nombres de personas, organizaciones, lugares, fechas, etc. Esto es útil para la extracción de información y la indexación de documentos.
 
-Extracción de información: Un analizador de texto puede extraer información específica del texto, como relaciones entre entidades, datos estructurados, eventos, etc. Esto ayuda a organizar y extraer conocimientos significativos del texto.
+* Extracción de información: Un analizador de texto puede extraer información específica del texto, como relaciones entre entidades, datos estructurados, eventos, etc. Esto ayuda a organizar y extraer conocimientos significativos del texto.
 
 
 ## 4. Funcionalidades
