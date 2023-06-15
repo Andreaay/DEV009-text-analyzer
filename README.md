@@ -48,18 +48,19 @@ Extracción de información: Un analizador de texto puede extraer información e
 
 ## 4. Funcionalidades
 
-* Recuento de palabras: la aplicación debe poder contar el número de palabras en el texto de entrada y mostrar este recuento al usuario
+* Ingresar texto escribiendo dentro de un cuadro de texto. 
 
-* Recuento de caracteres: la aplicación debe poder contar el número de caracteres en el texto de entrada, incluidos espacios y signos de puntuación, y mostrar este recuento al usuario.
+* Recuento de palabras: cálculo de el número de palabras en el texto de entrada.
 
-* Recuento de caracteres excluyendo espacios y signos de puntuación: la aplicación debe poder contar el número de caracteres en el texto de entrada, excluyendo espacios y signos de puntuación, y mostrar este recuento al usuario.
+* Recuento de caracteres: cálculo de el número de caracteres en el texto de entrada, incluidos espacios y signos de puntuación.
 
-* Recuento de números: la aplicación debe contar cúantos números hay en el texto de entrada y mostrar este recuento al usuario.
+* Recuento de caracteres excluyendo espacios y signos de puntuación: cálculo de el número de caracteres en el texto de entrada, excluyendo espacios y signos de puntuación.
 
-* Suma total de números: la aplicación debe sumar todos los números que hay en el texto de entrada y mostrar el resultado al usuario.
-Longitud media de las palabras: la aplicación debe calcular la longitud media de las palabras en el texto de entrada y mostrársela al usuario.
+* Recuento de números: cálculo de cúantos números hay en el texto de entrada.
 
-* Longitud media de las palabras: la aplicación debe calcular la longitud media de las palabras en el texto de entrada y mostrársela al usuario.
+* Suma total de números: cálculo de todos los números que hay en el texto de entrada.
+
+* Longitud media de las palabras: cálculo de la longitud media de las palabras en el texto de entrada y mostrársela al usuario.
 
 ## 5. Acceso al proyecto
 
@@ -80,40 +81,10 @@ Para el desarrollo de este proyecto se utilizó:
 
 ## 7. Desarrolladora
 
-### Prepara tu PC para trabajar
+### Autora
 
 Antes de comenzar instala lo siguiente:
 
-1. [Node.js](https://nodejs.org/)
-2. [git](https://git-scm.com/download/) Si estas en Linux es muy probable que
-  ya este instalado 👀.
-  Para conocer más de git visita
-  [este enlace](https://curriculum.laboratoria.la/es/topics/scm/01-git)
-3. Un editor de código, te sugerimos [Code](https://code.visualstudio.com/)
-
-Después en [GitHub](https://github.com/):
-
-1. Crear una cuenta. Conoce más de GitHub en este
-  [link](https://curriculum.laboratoria.la/es/topics/scm/02-github/01-github)
-2. Realiza un fork de este proyecto
-3. Configura tu SSH Key  en GitHub. Puedes revisar este
-[video](https://www.youtube.com/watch?v=g0ZV-neSM7E) o
-[artículo](https://docs.github.com/es/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
-Luego en una [shell](https://curriculum.laboratoria.la/es/topics/shell)
-ejecuta lo siguiente. Si estas en Windows puedes usar Git Bash:
-
-1. Clona el fork en tu PC
-2. Ubica la shell en el proyecto que clonaste
-3. Instala las dependencias del proyecto con `npm install`
-4. Instala `playwright` con `npx playwright install chromium --with-deps`
-5. Para arrancar el servidor web `npm start` y dirígete a
-   `http://localhost:3000` en tu navegador.
-6. A codear se ha dicho! :rocket:
-
-### Recursos y temas relacionados
-
-Súmate al canal de Slack [#project-text-analyzer](https://claseslaboratoria.slack.com/archives/C058GP6K9NY)
 
 ## 8. Bibliografía
 
