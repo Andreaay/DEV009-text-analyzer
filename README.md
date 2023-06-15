@@ -30,7 +30,7 @@ Obtener información relevante: Un usuario puede utilizar el analizador de texto
 
 Clasificación y categorización: Un usuario puede utilizar el analizador de texto para clasificar y categorizar textos en diferentes grupos. Esto puede ser útil para organizar documentos, filtrar contenido o realizar análisis estadísticos.
 
-![Entrada de texto]((https://github.com/Andreaay/DEV009-text-analyzer/blob/83e8df4bd5a6874286be67765810e9c9786fffe0/ENTRADA%20DE%20TEXTO.jpg))
+![Analizador de texto](https://github.com/Andreaay/DEV009-text-analyzer/blob/83e8df4bd5a6874286be67765810e9c9786fffe0/ENTRADA%20DE%20TEXTO.jpg)
 
 _Credito: Imagen de Andrea C.
 
