@@ -66,6 +66,8 @@ _en [Unsplash](https://unsplash.com/es/fotos/72NpWZJOskU?utm_source=unsplash&utm
 
 * Longitud media de las palabras: cálculo de la longitud media de las palabras en el texto de entrada y mostrársela al usuario.
 
+* Obtención del resultado de cálculo para cada conteo.
+
 ## 5. Acceso al proyecto
 
 A continuación encontrarás el link para poderacceder a un analizador de texto que te ayudará a conocer lo necesario sobre tus textos.
