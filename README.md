@@ -60,8 +60,9 @@ _Credito: Imagen de Andrea C.
 
 Para el desarrollo de este proyecto se utilizó:
 
-* Visual studio code para el desarrollo de todo el código por medio de java script, HTML y CSS.
-* Github Pages para desplegar nuestro sitio web.
+* Visual Studio Code: Se pudo trabajar de manera eficiente en la creación y edición del código. Es un potente editor de código fuente que proporciona una amplia gama de herramientas y funcionalidades para desarrolladores. Fue utilizado como el entorno de desarrollo principal para escribir y editar el código HTML, CSS y JavaScript del analizador de texto.
+
+* GitHub: Es una plataforma de desarrollo colaborativo basada en la nube que permite alojar, gestionar y compartir proyectos de software utilizando el sistema de control de versiones Git. Fue utilizado para almacenar y gestionar el repositorio del proyecto del analizador de texto. Con GitHub, se pudo mantener un registro de todas las versiones del código, realizar seguimiento de cambios, colaborar con otros desarrolladores y facilitar la distribución y el acceso al proyecto. Además, GitHub proporciona herramientas para la gestión de problemas (issues), revisión de código (pull requests) y despliegue del proyecto en un servidor web.
 
 
 ## 6. Bibliografía
