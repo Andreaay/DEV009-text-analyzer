@@ -8,8 +8,7 @@
 * [4. Funcionalidades](#4-Funcionalidades)
 * [5. Acceso al proyecto](#5-Acceso-al-proyecto)
 * [6. Tecnologías utilizadas](#6-Tecnologías-utilizdas)
-* [7. Desarrolladora](#7-Desarrolladora)
-* [8. Bibliografía](#8-Bibliografía)
+* [7. Bibliografía](#8-Bibliografía)
 
 ***
 
@@ -36,17 +35,12 @@ _Credito: Imagen de Andrea C.
 
 
 
-## 3. Características de un analizador de texto
+## 3. Características del analizador de texto
 
 * Tokenización: El analizador de texto divide el texto en unidades más pequeñas llamadas tokens. Estos tokens pueden ser palabras individuales, frases, oraciones o incluso caracteres. La tokenización es una etapa fundamental para el análisis y procesamiento posterior del texto.
 
-* Etiquetado gramatical: Un analizador de texto puede asignar etiquetas gramaticales a cada token en el texto, como nombres, verbos, adjetivos, etc. Esto ayuda a comprender la estructura gramatical y sintáctica del texto.
+* 
 
-* Análisis de sentimientos: Algunos analizadores de texto tienen la capacidad de analizar el tono emocional o la actitud expresada en el texto. Pueden identificar si el texto tiene una connotación positiva, negativa o neutral, lo que es útil en aplicaciones como el análisis de opiniones en redes sociales, comentarios de clientes, etc.
-
-* Reconocimiento de entidades nombradas (NER): Un analizador de texto puede identificar y clasificar entidades nombradas en el texto, como nombres de personas, organizaciones, lugares, fechas, etc. Esto es útil para la extracción de información y la indexación de documentos.
-
-* Extracción de información: Un analizador de texto puede extraer información específica del texto, como relaciones entre entidades, datos estructurados, eventos, etc. Esto ayuda a organizar y extraer conocimientos significativos del texto.
 
 
 ## 4. Funcionalidades
@@ -76,6 +70,7 @@ A continuación encontrarás el link para poderacceder a un analizador de texto 
   - [ ] Analizador de texto
   [`Analizador`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 
+![Analizador de texto](https://github.com/Andreaay/DEV009-text-analyzer/blob/83e8df4bd5a6874286be67765810e9c9786fffe0/ENTRADA%20DE%20TEXTO.jpg)
 
 ## 6. Tecnologías utilizadas
 
@@ -84,14 +79,8 @@ Para el desarrollo de este proyecto se utilizó:
 * Visual studio code para el desarrollo de todo el código por medio de java script, HTML y CSS.
 * Github Pages para desplegar nuestro sitio web.
 
-## 7. Desarrolladora
 
-### Autora
-
-Antes de comenzar instala lo siguiente:
-
-
-## 8. Bibliografía
+## 7. Bibliografía
 
 * Jurafsky, D., & Martin, J. H. (2019). Speech and Language Processing: An Introduction to Natural Language Processing, Computational Linguistics, and Speech Recognition (3rd ed.). Pearson.
 
