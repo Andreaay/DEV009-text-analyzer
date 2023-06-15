@@ -43,21 +43,17 @@ _Credito: Imagen de Andrea C.
 
 ## 4. Funcionalidades
 
-* Ingresar texto escribiendo dentro de un cuadro de texto. 
+* Contador de palabras: Permite contar el número de palabras en el texto ingresado. Esto es útil para determinar la cantidad de palabras en un párrafo o documento.
 
-* Recuento de palabras: cálculo de el número de palabras en el texto de entrada.
+* Contador de caracteres: Calcula el número total de caracteres en el texto ingresado, incluyendo letras, números, espacios y signos de puntuación. Esta funcionalidad es útil para saber la longitud total del texto.
 
-* Recuento de caracteres: cálculo de el número de caracteres en el texto de entrada, incluidos espacios y signos de puntuación.
+* Contador de caracteres sin espacios y signos de puntuación: Realiza un conteo de los caracteres en el texto, pero excluye los espacios en blanco y los signos de puntuación. Esto puede ser útil para obtener la longitud real de las palabras en el texto, sin considerar los elementos que no forman parte de las palabras propiamente dichas.
 
-* Recuento de caracteres excluyendo espacios y signos de puntuación: cálculo de el número de caracteres en el texto de entrada, excluyendo espacios y signos de puntuación.
+* Contador de números: Detecta y cuenta la cantidad de números presentes en el texto ingresado. Esto permite identificar y contar números en un texto mixto de palabras y números.
 
-* Recuento de números: cálculo de cúantos números hay en el texto de entrada.
+* Suma de números: Calcula la suma de todos los números encontrados en el texto. Esta funcionalidad es útil cuando se desea obtener la suma total de valores numéricos presentes en un texto.
 
-* Suma total de números: cálculo de todos los números que hay en el texto de entrada.
-
-* Longitud media de las palabras: cálculo de la longitud media de las palabras en el texto de entrada y mostrársela al usuario.
-
-* Obtención del resultado de cálculo para cada conteo.
+* Promedio de longitud de palabras: Calcula el promedio de la longitud de las palabras en el texto ingresado. Esto proporciona información sobre la longitud promedio de las palabras en el texto.
 
 
 ## 5. Tecnologías utilizadas
