@@ -32,6 +32,9 @@ Clasificación y categorización: Un usuario puede utilizar el analizador de tex
 
 _Credito: Imagen de Andrea C.
 
+Este proyecto fue creado en base a un diseño imaginado y plasmado en un borrador
+
+![Borrado](https://github.com/Andreaay/DEV009-text-analyzer/blob/83e8df4bd5a6874286be67765810e9c9786fffe0/ENTRADA%20DE%20TEXTO.jpg)
 
 
 ## 3. Características del analizador de texto
