@@ -63,18 +63,13 @@ Longitud media de las palabras: la aplicación debe calcular la longitud media d
 
 ## 5. Acceso al proyecto
 
-A continuación encontrarás el link para poderacceder a un analizador de texto que te ayudará a 
+A continuación encontrarás el link para poderacceder a un analizador de texto que te ayudará a conocer lo necesario sobre tus textos.
 
-### HTML
+### Acceso
 
-* **Uso de HTML semántico**
+  - [ ] Analizador de texto
+  [`Analizador`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
 
-  - [ ] La aplicación tiene un encabezado conformado por un
-  [`<header>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header)
-  que es padre de un
-  [`<h1>`](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/h1)
-  con texto `Analizador de texto`. Para que puedas practicar más, estos
-  elementos no pueden tener atributos `id`, ni `name`, ni `class`.
 
 ## 6. Tecnologías utilizadas
 
