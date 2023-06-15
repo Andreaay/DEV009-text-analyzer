@@ -24,9 +24,9 @@ Es útil para cualquier tipo de escritor que escribe textos con un determinado n
 
 El principal ojetivo de este analizador de texto en base a un usuario es ayudar al usuario a procesar y comprender el contenido textual de manera eficiente y efectiva, brindando información relevante y útil. Los objetivos son:
 
-Obtener información relevante: Un usuario puede utilizar el analizador de texto para extraer información específica de un texto, como recuento de caracteres, palabras, números y longitud.
+* Obtener información relevante: Un usuario puede utilizar el analizador de texto para extraer información específica de un texto, como recuento de caracteres, palabras, números y longitud.
 
-Clasificación y categorización: Un usuario puede utilizar el analizador de texto para clasificar y categorizar textos en diferentes grupos. Esto puede ser útil para organizar documentos, filtrar contenido o realizar análisis estadísticos.
+* Clasificación y categorización: Un usuario puede utilizar el analizador de texto para clasificar y categorizar textos en diferentes grupos. Esto puede ser útil para organizar documentos, filtrar contenido o realizar análisis estadísticos.
 
 ![Analizador de texto](https://github.com/Andreaay/DEV009-text-analyzer/blob/83e8df4bd5a6874286be67765810e9c9786fffe0/ENTRADA%20DE%20TEXTO.jpg)
 
